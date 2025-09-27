@@ -26,6 +26,8 @@ export interface PostProps {
   title: string;
   body: string;
 }
+
+
 export interface UserProps {
   id: number;
   name: string;
@@ -38,3 +40,6 @@ export interface UserProps {
     zipcode: string;
   };
 }
+
+}
+
