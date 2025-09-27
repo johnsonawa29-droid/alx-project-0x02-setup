@@ -1,3 +1,4 @@
+
 import React from "react";
 import Link from "next/link";
 
@@ -11,6 +12,9 @@ const Header = () => {
         </Link>
         <Link href="/about" className="hover:underline">
           About
+        </Link>
+        <Link href="/posts" className="hover:underline">
+          Posts
         </Link>
       </nav>
     </header>
