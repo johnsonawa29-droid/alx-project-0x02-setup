@@ -22,3 +22,18 @@ export default function HomePage() {
     </div>
   );
 }
+
+import Header from "@/components/layout/Header";
+import Card from "@/components/common/Card";
+
+export default function HomePage() {
+  return (
+    <>
+      <Header />
+      <div className="p-8">
+        <h1 className="text-2xl font-bold mb-4">Home Page</h1>
+        <Card title="Welcome" content="This is the home page card." />
+      </div>
+    </>
+  );
+}
